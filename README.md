@@ -87,6 +87,8 @@ Build the Docker image:
 Run the container:
 `docker run -p 8501:8501 forex-predictor`
 
+Then open **http://localhost:8501** in your browser and select the currency you want to forecast.
+
 ## Project structure
     forex-currency-predictor
     |
