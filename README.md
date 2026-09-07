@@ -82,7 +82,7 @@ Start the application:
 Used to run the Streamlit application inside a container.
 
 Build the Docker image:
-`docker build -t forex-predictor`
+`docker build -t forex-predictor .`
 
 Run the container:
 `docker run -p 8501:8501 forex-predictor`
